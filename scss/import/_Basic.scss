@@ -246,7 +246,6 @@ a {
     }
 }
 
-
 h4 {
     &.tit {
         text-align: center;
@@ -410,3 +409,11 @@ h4 {
     width: 100%;
     height: auto;
 }/*讓圖自適應*/
+
+.d-area1,
+#block3 {
+    .page {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
