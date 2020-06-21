@@ -102,7 +102,7 @@
 	$('.article').on('click', function(){
 		var $that = $(this);
 		var $href = $that.data('href');
-		var $origin = window.location.origin;
+		var $origin = window.location.href;
 		window.location.href = $origin + $href;
 	})
 })
