@@ -88,6 +88,12 @@ a:hover {
   }
 }
 
+@media (min-width: 1200px) {
+  .navbar__logo {
+    width: 19rem;
+  }
+}
+
 .navbar-light .navbar-toggler {
   border: 0;
 }
@@ -363,7 +369,7 @@ h4.tit {
   }
 }
 
-.line {
+#footer .line {
   position: fixed;
   bottom: 20%;
   z-index: 300;
@@ -373,12 +379,12 @@ h4.tit {
 }
 
 @media (min-width: 768px) {
-  .line {
+  #footer .line {
     width: auto;
   }
 }
 
-.line a {
+#footer .line a {
   background-color: #04708a;
   display: block;
   text-align: center;
@@ -387,16 +393,28 @@ h4.tit {
   border-radius: 1em;
 }
 
+#footer .line p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  #footer .line p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
 /*btn*/
-.btn {
+a.btn {
   background-color: #04708a;
   padding: 15px 45px;
   border-radius: 50px;
   color: #FFF;
   font-size: 20px;
+  line-height: 1;
 }
 
-.btn:hover {
+a.btn:hover {
   background: #0ab1d9;
 }
 
@@ -500,6 +518,87 @@ h4.tit {
 #block_3 .page {
   padding-right: 30px;
   padding-left: 30px;
+}
+
+/*------------------------------ 內頁文章 ------------------------------*/
+.page__article .main__content {
+  padding: 3em 1em;
+}
+
+.page__article .main__content p {
+  font-size: 1.125em;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.page__article .main__subject {
+  font-size: 1.5em;
+  margin-top: .83em;
+  margin-bottom: .83em;
+}
+
+.page__article .main__img {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.page__article .main__img a {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.page__article .main__info p {
+  padding: 50px 0;
+}
+
+.page__article .main__info p.title {
+  font-weight: 600;
+}
+
+.page__article .main__info h2 {
+  margin-top: .83em;
+  margin-bottom: .83em;
+}
+
+.page__article__2 .main__content p {
+  font-size: 1.25em;
+  line-height: 1.7;
+  letter-spacing: .1rem;
+}
+
+.page__article__2 .main__content p.main__source {
+  font-size: 1.125rem;
+}
+
+.page__article__2 .main__info p {
+  padding: 10px 0;
+}
+
+.page__article__2 .main__info p.title {
+  font-weight: 600;
+}
+
+.page__article__2 .main__info blockquote {
+  margin: 40px 0;
+  padding: 25px 30px;
+}
+
+.page__article__3 .main__info {
+  font-family: "Roboto Condensed", "Microsoft JhengHei", fantasy;
+}
+
+.page__article__3 .main__info h2 {
+  color: #ff5500;
+  font-size: 1.6em;
+}
+
+.page__article__3 .main__info p {
+  margin: 1em 0 1.5em;
+  padding: 0;
+}
+
+.txt-green {
+  color: #009944;
 }
 
 /*---------*\
