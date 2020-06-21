@@ -99,10 +99,10 @@
 	// },{offset:'95%'})
 
 	//article 文章連結
-	$('.article').on('click', function(){
-		var $that = $(this);
-		var $href = $that.data('href');
-		var $origin = window.location.origin + window.location.pathname;
-		window.location.href = $origin + $href;
-	})
+	// $('.article').on('click', function(){
+	// 	var $that = $(this);
+	// 	var $href = $that.data('href');
+	// 	var $origin = window.location.origin + window.location.pathname;
+	// 	window.location.href = $origin + $href;
+	// })
 })
