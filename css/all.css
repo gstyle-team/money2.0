@@ -558,6 +558,7 @@ a.btn:hover {
 .page__article .main__info h2 {
   margin-top: .83em;
   margin-bottom: .83em;
+  font-weight: 900;
 }
 
 .page__article__2 .main__content p {
